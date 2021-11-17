@@ -1,9 +1,10 @@
 @import "./general.css";
 
 .container {
-    width: 60%;
-    float: center;
+    width: 100%;
+    float: left;
     text-align: center;
+    padding-left: 260px;
 }
 
 .cards__images {
@@ -23,6 +24,11 @@
     text-align: center;
     float: center;
     padding-top: 10px;
+}
+
+body.dark .cards__btn {
+    background-color: rgb(223, 32, 32);
+    color: #000000;
 }
 
 @media(max-width:480px){
