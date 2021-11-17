@@ -41,3 +41,39 @@ footer {
     color: white;
     padding-top: 10px;
 }
+
+
+@media(max-width:480px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .infobio {
+        float: left;
+    }
+
+    .estudios, .msg {
+        padding: 60px 10px 10px 10px;
+    }
+
+    .imgmtv {
+        width: 300px;
+        height: 180px;
+    }
+    .bttn {
+        padding-top: 12px;
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 30px;
+    }
+}

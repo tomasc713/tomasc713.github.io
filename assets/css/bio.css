@@ -24,3 +24,19 @@ img {
     float: center;
     padding-top: 10px;
 }
+
+@media(max-width:480px){
+    nav {
+        display: none;
+    }
+
+    header {
+        height: 300px;
+        width: 100%;
+        font-size: 35px;
+        padding-left: 65px;
+    }
+    .bio{
+        width: 100%;
+    }
+}
