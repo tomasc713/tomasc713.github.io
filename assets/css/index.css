@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav{
+    font-size: 20px;
+    height: 1700px;
+    width:20%;
+    background-color: rgb(250, 250, 250);
+    text-align: left;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    list-style: none;
+}
+
+header{
+    height: 400px;
+    width:80%;
+    background-image:url(../img/map.png);
+    text-align:center;
+    float: right;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 140px;
+    color: white;
+    font-size: 40px;
+}
+
+.aboutme{
+    padding-bottom: 80px;
+    color: red;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+hr{
+    color: rgb(255, 77, 77);
+    background-color: rgb(255, 77, 77);
+    border: none;
+    height: 10px;
+}
+
+.infobio {
+    width: 80%;
+    float: right;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text1, .text2 {
+    padding: 50px;
+}
+
+
+.estudios, .msg {
+    padding: 100px;
+}
+
+.bttn {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(250, 250, 250);
+    background-color: red;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    float: center;
+    padding: 10px;
+}
+
+footer {
+    width: 80%;
+    float: right;
+    font-size: 40px;
+    text-align: center;
+    height: 80px;
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+}
