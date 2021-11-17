@@ -104,6 +104,10 @@ body.dark hr{
     background-color: rgb(223, 32, 32);
 }
 
+body.dark body {
+    background-color: #000000;
+}
+
 body.dark nav {
     background-color: #000000;
     color: #fff;

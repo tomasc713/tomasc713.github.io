@@ -1,10 +1,11 @@
 @import "./general.css";
 
 .container {
-    width: 80%;
+    width: 100%;
     float: right;
     text-align: center;
     padding-bottom: 50px;
+    padding-left: 260px;
 }
 
 .card h2, .card h3 {
@@ -64,13 +65,14 @@ body.dark footer {
 
     .container {
         float: left;
+        padding: 0px;
     }
 
-    .card__imgs, .card__imgtext {
+    .card__imgs, .card__textimg {
         padding: 60px 10px 10px 10px;
     }
 
-    .card__imgtext img {
+    .card__textimg img {
         width: 300px;
         height: 180px;
     }

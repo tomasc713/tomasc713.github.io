@@ -44,6 +44,6 @@ body.dark .cards__btn {
     }
 
     .container{
-        width: 100%;
+        padding-left: 0;
     }
 }
