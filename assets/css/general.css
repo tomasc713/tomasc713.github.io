@@ -32,18 +32,15 @@ header{
     font-size: 40px;
 }
 
-.aboutme{
+.nav__title {
     padding-bottom: 80px;
     color: red;
 }
 
-a {
+.nav__content, .nav__content a {
+    list-style: none;
     color: #000000;
     text-decoration: none;
-}
-
-ul{
-    list-style: none;
 }
 
 hr{
@@ -51,4 +48,10 @@ hr{
     background-color: rgb(255, 77, 77);
     border: none;
     height: 10px;
+}
+
+@media(max-width:480px) {
+    * {
+    overflow-x: hidden;
+    }
 }

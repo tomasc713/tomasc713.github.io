@@ -1,6 +1,6 @@
 @import "./general.css";
 
-.data {
+.container {
     font-size: 20px;
 }
 
@@ -20,7 +20,7 @@ nav {
         padding-top: 25px;
     }
 
-    .data {
+    .container {
         float: left;
         font-size: 25px;
     }

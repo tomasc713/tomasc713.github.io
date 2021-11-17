@@ -1,16 +1,16 @@
 @import "./general.css";
 
-.bio {
+.container {
     width: 60%;
     float: center;
     text-align: center;
 }
 
-img {
+.cards__images {
     padding-top: 20px;
 }
 
-.btn {
+.cards__btn {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -36,7 +36,8 @@ img {
         font-size: 35px;
         padding-left: 65px;
     }
-    .bio{
+
+    .container{
         width: 100%;
     }
 }
