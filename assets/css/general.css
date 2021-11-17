@@ -17,6 +17,7 @@ nav{
     padding-top: 50px;
     padding-left: 50px;
     list-style: none;
+    position: fixed;
 }
 
 header{

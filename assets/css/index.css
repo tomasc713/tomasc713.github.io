@@ -42,6 +42,83 @@ footer {
 }
 
 
+/*switch*/
+.navbar__switch{
+    border-radius: 1000px;
+    background-color: #343d5b;
+    display: flex;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+  .navbar__switch::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+  }
+  
+  .navbar__switch span{
+     width: 30px;
+     height: 30px;
+     color: #fff;
+     line-height: 30px;
+  }
+ 
+  .navbar__switch--active{
+    background-color: orange;
+  }
+ 
+  .navbar__switch--active::after{
+   right: unset;
+   left: 0;
+ }
+ 
+ .dark {
+   background-color: #111;
+ }
+
+/*modo oscuro*/
+
+body.dark header {
+    color: #fff;
+}
+
+body.dark nav {
+    background-color: #000000;
+    color: #fff;
+}
+
+body.dark .nav__title {
+    color: rgb(223, 32, 32);
+}
+  
+body.dark a {
+    color: #fff;
+}
+
+body.dark .container {
+    background-color: #010101;
+    color: #fff;
+}
+
+body.dark .card__btn {
+    background-color: rgb(223, 32, 32);
+    color: #000000;
+}
+
+body.dark footer {
+    background-color: rgb(223, 32, 32);
+    color: #000000;
+}
+
+
 @media(max-width:480px) {
     nav {
         display: none;
