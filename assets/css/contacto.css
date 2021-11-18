@@ -2,11 +2,9 @@
 
 .container {
     font-size: 20px;
-    padding-left: 270px;
-}
-
-nav {
-    max-height: 700px;
+    width: 80%;
+    float: right;
+    height: 500px;
 }
 
 @media(max-width:480px) {
@@ -18,12 +16,12 @@ nav {
         width: 100%;
         height: 250px;
         font-size: 25px;
-        padding-top: 25px;
     }
 
     .container {
         float: left;
         font-size: 25px;
-        padding-left: 0;
+        width: 100%;
+
     }
 }

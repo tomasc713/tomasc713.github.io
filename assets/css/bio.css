@@ -4,11 +4,34 @@
     width: 100%;
     float: left;
     text-align: center;
-    padding-left: 260px;
+    padding-left: 280px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
-.cards__images {
-    padding-top: 20px;
+.cards__imgtext {
+    height: 350px;
+}
+
+.cards__imgtext__image {
+    float: left; 
+    width: 30%;
+}
+
+.cards__imgtext__text {
+    float: right; 
+    width: 69%; 
+    height: 349px; 
+    padding-top: 70px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.cards__imgtext__text h2 {
+    font-size: 40px;
 }
 
 .cards__btn {
@@ -22,8 +45,8 @@
     width: 300px;
     height: 50px;
     text-align: center;
-    float: center;
     padding-top: 10px;
+    float: left;
 }
 
 body.dark .cards__btn {
@@ -40,7 +63,6 @@ body.dark .cards__btn {
         height: 300px;
         width: 100%;
         font-size: 35px;
-        padding-left: 65px;
     }
 
     .container{
