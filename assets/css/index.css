@@ -13,7 +13,7 @@
     font-size: 25px;
 }
 
-.card__btn {
+.card__bttn a{
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -28,17 +28,13 @@
     padding-top: 5px;
 }
 
-body.dark .card__btn {
+body.dark .card__bttn a{
     background-color: rgb(223, 32, 32);
     color: #000000;
 }
 
-body.dark footer {
-    background-color: rgb(223, 32, 32);
-    color: #000000;
-}
 
-@media(max-width:500px) and (min-width: 300px){
+@media(max-width:480px){
     nav {
         display: none;
     }
@@ -62,16 +58,15 @@ body.dark footer {
         height: 180px;
     }
 
-    .card__btn {
+    .card__bttn a{
         padding-top: 12px;
+        padding-bottom: 10px;
         width: 150px;
         height: 50px;
         font-size: 15px;
     }
 
-    footer {
-        width: 100%;
-        padding-top: 25px;
-        font-size: 20px;
+    .card__bttn {
+        padding-bottom: 30px;
     }
 }

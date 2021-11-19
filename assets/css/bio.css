@@ -21,8 +21,8 @@
 
 .cards__imgtext__text {
     float: right; 
-    width: 69%; 
-    height: 349px; 
+    width: 70%; 
+    height: 350px; 
     padding-top: 70px;
 }
 
@@ -30,11 +30,11 @@ p {
     font-size: 22px;
 }
 
-.cards__imgtext__text h2 {
+h2 {
     font-size: 40px;
 }
 
-.cards__btn {
+.cards__bttn a{
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -49,7 +49,7 @@ p {
     float: left;
 }
 
-body.dark .cards__btn {
+body.dark .cards__bttn a{
     background-color: rgb(223, 32, 32);
     color: #000000;
 }
@@ -66,6 +66,41 @@ body.dark .cards__btn {
     }
 
     .container{
-        padding-left: 0;
+        padding: 50px;
+    }
+
+    .cards__imgtext__image {
+        width: 100%;
+    }
+    
+    .cards__imgtext__text { 
+        width: 100%;
+        height: unset;
+        padding-top: 1px;
+        padding-bottom: 20px;
+    }
+
+    .cards__imgtext {
+        height: unset;
+    }
+
+    p {
+        font-size: 25px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+
+    img {
+        height: 280px;
+    }
+
+    .cards__bttn a{
+        width: 100%;
+    }
+
+    .cards__bttn {
+        padding-bottom: 25px;
     }
 }

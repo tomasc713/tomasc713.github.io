@@ -139,6 +139,11 @@ body.dark body {
     background-color: #010101;
 }
 
+body.dark footer {
+    background-color: rgb(223, 32, 32);
+    color: #000000;
+}
+
 @media(max-width:480px) {
     * {
     overflow-x: hidden;
@@ -155,7 +160,6 @@ body.dark body {
 
     footer {
         width: 100%;
-        padding-top: 25px;
         font-size: 20px;
     }
 }
